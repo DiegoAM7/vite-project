@@ -7,7 +7,6 @@ export default defineConfig({
 			targets: ['defaults', 'not IE 11'],
 		}),
 	],
-	root: './src',
 	build: {
 		manifest: true,
 	},
