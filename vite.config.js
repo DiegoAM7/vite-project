@@ -4,5 +4,5 @@ export default defineConfig({
 	build: {
 		manifest: true,
 	},
-	base: '/',
+	base: '/vite-project/',
 });
