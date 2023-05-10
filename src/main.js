@@ -1,7 +1,7 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import './assets/css/style.css';
+import javascriptLogo from './public/img/javascript.svg';
+import viteLogo from './public/img/vite.svg';
+import { setupCounter } from './components/counter.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -19,6 +19,6 @@ document.querySelector('#app').innerHTML = `
       Click on the Vite logo to learn more
     </p>
   </div>
-`
+`;
 
-setupCounter(document.querySelector('#counter'))
+setupCounter(document.querySelector('#counter'));
