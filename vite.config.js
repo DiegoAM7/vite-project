@@ -7,9 +7,4 @@ export default defineConfig({
 		manifest: true,
 	},
 	base: '/vite-project/',
-	plugins: [
-		legacy({
-			targets: ['defaults', 'not IE 11'],
-		}),
-	],
 });
